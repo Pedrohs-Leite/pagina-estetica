@@ -11,9 +11,11 @@
 
 @media screen and (max-width: 878px) {
     /*----HERO----*/
+
     *{
         overflow-x: hidden;
     }
+    
     section.hero-site {
         height: 100vh;
         background-image: url(images/bg-estetic-moba.webp);
@@ -29,7 +31,7 @@
     }
     .hero-site .txt-hero h1{
     font-size: 2.2em;
-    line-height: 45px;
+    line-height: 50px;
     width: 500px;
     }
 
@@ -50,14 +52,15 @@
         flex-direction: column;
     }
     .vantagens .itens-container .img-itens img{
-        width: 100% ;
+        width: 95%;
     }
-    .vantagens .itens-container .txt-itens h3{
-        font-size: 2.8em;
+    .vantagens .itens-container .txt-itens h1{
+        font-size: 2.2em;
+        line-height: 50px;
         
     }
     .vantagens .itens-container .txt-itens p{
-        margin-bottom: 20px;
+        margin-bottom: 18px;
     }
 
     .vantagens .itens-container .item-1{
@@ -75,8 +78,8 @@
         width: 100%;
     }
 
-    .contato .txt-contato h3{
-        font-size: 2em;
+    .contato .txt-contato h1{
+        font-size: 1.7em;
         line-height: 40px;
     }
 
@@ -89,8 +92,12 @@
     }
     
     /*------  HOTEIS------*/
-
-    .hoteis h3{
+    section.hoteis{
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+    }
+    .hoteis h1{
         font-size: 1.8em;
         line-height: 40px;
     }
@@ -114,15 +121,10 @@
         position: static;
     }
 
-    .fuciona .txt-funciona h3{
-        font-size: 3em;
-        line-height: 50px;
+    .fuciona .txt-funciona h1{
+        font-size: 2.5em;
         text-align: center;
         
-    
-    }
-    .fuciona .txt-funciona h3 span{
-        display: inline-block;
     }
 
     .instrucoes .instro-box{

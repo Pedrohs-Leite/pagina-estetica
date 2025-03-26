@@ -318,13 +318,10 @@ section.fuciona {
     margin-bottom: 10px;
 }
 
-.instrucoes .instro-box h4 span {
+.instrucoes .instro-box h1 span {
     font-weight: 300;
 }
 
-.instrucoes .instro-box p {
-    line-height: 20px;
-}
 
 /*---------FOOTER*/
 
